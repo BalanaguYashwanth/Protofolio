@@ -1,0 +1,147 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+p{
+    line-height: 2;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container{
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.intro{
+    margin: auto;
+    width: 30%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+
+
+/* 
+.myprojects{
+    width: 50%;
+} */
+
+h1{
+    color: #66BFBF;
+    margin-top: 50px auto;
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2{
+    color:#66BFBF;
+    font-size: 2.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 10px;
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer-link{
+    color:#11999E;
+    font-family:'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #EAF6F6;
+}
+
+
+.cloud-upward{
+    position: absolute;
+    top: 40px;
+    right:300px
+ }
+
+.cloud-downward{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.code-img{
+    margin-right: 30px;
+    border-radius: 50%;
+    float: left;
+    width: 25%;
+}
+
+/* .code-img-right{
+    margin-right: 100px;
+    margin-left: 5px;
+    border-radius: 50%;
+    float: right;
+    width: 25%;
+    position: relative;
+} */
+
+.code-img-right{
+    margin-right: 30px;
+    border-radius: 50%;
+    float: right;
+    width: 25%;
+}
+
+.btn{
+    background-color: #11cdd4;
+    border-radius: 10px;       
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.btn:hover{
+    background-color: #30e3cb;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.5rem;
+    padding: 20px 0px;
+}
+
+.project-link{
+    text-decoration: none; 
+    color: #40514E;   
+}
