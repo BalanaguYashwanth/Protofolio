@@ -115,12 +115,12 @@ a:hover{
     position: relative;
 } */
 
-.code-img-right{
+/* .code-img-right{
     margin-right: 30px;
     border-radius: 50%;
     float: right;
     width: 25%;
-}
+} */
 
 .btn{
     background-color: #11cdd4;
@@ -145,3 +145,61 @@ a:hover{
     text-decoration: none; 
     color: #40514E;   
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .code-img-right{
+        margin-right: 30px;
+        border-radius: 50%;
+        float: right;
+        width: 25%;
+  }
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .code-img-right{
+        margin-right: 30px;
+        border-radius: 50%;
+        float: right;
+        width: 25%;
+  }
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .code-img-right{
+        margin-right: 30px;
+        border-radius: 50%;
+        float: right;
+        width: 25%;
+        height: 200px;
+  }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .code-img-right{
+        margin-right: 100px;
+        margin-left: 5px;
+        border-radius: 50%;
+        float: right;
+        width: 25%;
+        position: relative;
+        height: 200px;
+    } 
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .code-img-right{
+        margin-right: 100px;
+        margin-left: 5px;
+        border-radius: 50%;
+        float: right;
+        width: 25%;
+        position: relative;
+        height: 200px;
+    } 
+  }
+  
