@@ -142,7 +142,7 @@ a:hover{
 }
 
 .project-link{
-    text-decoration: none; 
+     text-decoration: underline dotted;
     color: #40514E;   
 }
 
